@@ -6,7 +6,7 @@
     box-sizing: border-box;
     vertical-align: top;
     outline: 0;
-    outline: red 1px dashed;
+    /* outline: red 1px dashed; */
 }
 
 body {
