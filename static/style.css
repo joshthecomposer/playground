@@ -1,0 +1,37 @@
+/* initialization and resets*/
+
+* {
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    vertical-align: top;
+    outline: 0;
+    outline: red 1px dashed;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 85%;
+    gap: 20px;
+    padding: 0;
+}
+
+.box {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
